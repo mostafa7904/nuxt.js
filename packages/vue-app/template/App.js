@@ -157,7 +157,7 @@ export default {
         if (typeof window.navigator.onLine === 'undefined') {
           // If the browser doesn't support connection status reports
           // assume that we are online because most apps' only react
-          // when they now that the connection has been interrupted
+          // when they know that the connection has been interrupted
           this.isOnline = true
         } else {
           this.isOnline = window.navigator.onLine
